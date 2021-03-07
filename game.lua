@@ -55,8 +55,6 @@ function STATE_VICTORY()
 	update_bg()
 end
 
-game_state = STATE_SPLASH
-
 function update_game()
     game_state()
 end
@@ -83,3 +81,5 @@ function draw_game()
         draw_fg()
     end
 end
+
+game_state = STATE_RUNNING
